@@ -1,0 +1,46 @@
+name: Arcane
+version: '1.0'
+main: cx.arcane.Arcane
+api-version: '1.21'
+prefix: [ acx ]
+authors: [ cppdecl ]
+website: arcane.cx
+folia-supported: true
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    packetevents:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    LuckPerms:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    SmartSpawner:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    ViaVersion:
+      load: BEFORE
+      required: true
+      join-classpath: false
+    FancyNpcs:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    FancyHolograms:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    floodgate:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    Geyser-Spigot:
+      load: BEFORE
+      required: true
+      join-classpath: true
