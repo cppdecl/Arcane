@@ -1,4 +1,4 @@
-\# Arcane - Definitive Edition
+# Arcane - Definitive Edition
 
 
 
